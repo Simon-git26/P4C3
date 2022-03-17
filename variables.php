@@ -25,4 +25,4 @@ if (isset($_COOKIE['LOGGED_USER']) || isset($_SESSION['LOGGED_USER'])) {
 
 // Crée un chemin racine pour mon serveur dans le quel le script courant est executé
 $rootPath = $_SERVER['DOCUMENT_ROOT'];
-$rootUrl = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/P4C3' . '/';
+$rootUrl = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/Projet.PHP' . '/Projet.PHP' . '/';
